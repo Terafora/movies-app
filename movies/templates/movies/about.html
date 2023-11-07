@@ -5,6 +5,8 @@
 <body>
     {% block content %}
     <h1>Here's a little page about me</h1>
+    {% load static %}
+    <img src="{% static 'movies/me.jpg' %}" alt="Image of Charlotte Stone">
     {% endblock %}
 </body>
 </html>
